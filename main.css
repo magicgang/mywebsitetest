@@ -1,1 +1,12 @@
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
 
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.twitter {
+  background-color: #55acee;
+}
