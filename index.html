@@ -22,6 +22,32 @@
     <div class='discord'>
         <div class ="infotitle" style="text-align: center;">-Test discord server for Bot-</div>
             <iframe src="https://discord.com/widget?id=825166211804954674&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        print('Content-Type: text/html')
+        print('\n\n')
+
+        print('''<html>
+        <head>
+        </head>
+        <h1>Hello Python!</h1>
+        <body>''')
+
+        # Here insert Python Code
+            import youtube_dl
+
+        download_url = input("https://www.youtube.com/watch?v=qol2X_8JF9IYoutubeのリンク:")
+        output_file_name = 'abe'
+
+        ydl_opts = {
+          'format': 'bestvideo+bestaudio/best',
+           'outtmpl':  output_file_name + '.%(ext)s',
+        }
+ 
+        ydl = youtube_dl.YoutubeDL(ydl_opts)
+        result = ydl.extract_info(download_url, download=True)
+
+        print('''</body>
+        </html>''')
+           
            </div>
         </div>
       </div>
