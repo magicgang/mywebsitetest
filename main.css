@@ -71,13 +71,13 @@
 .githubstatus {
   text-align: right; 
   top: 300px;
-  left: 500px;
+  left: 600px;
 }
 
 .statusimage {
   position: absolute;
   text-align: right; 
-  left: 600px;
+  left: 700px;
   top: 300;
 }
 
