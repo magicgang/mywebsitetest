@@ -75,6 +75,7 @@
 }
 
 .statusimage {
+  position: absolute;
   text-align: right; 
   left: 1400px;
 }
