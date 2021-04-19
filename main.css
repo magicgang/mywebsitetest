@@ -92,3 +92,60 @@
   color: black;
 }
 
+.profCard {
+    margin: 10px;
+    display: flex;
+    width: 600px;
+    height: 210px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.profCardDev {
+    border: 3px solid rgb(155, 89, 182);
+}
+
+.profCardAdmin {
+    border: 3px solid rgb(231, 76, 60);
+}
+
+.profCardMod {
+    border: 3px solid rgb(241, 196, 15);
+}
+
+.profCardKr {
+    border: 3px solid rgb(52, 152, 219);
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+}
+
+.profData {
+    display: flex;
+    flex-direction: column;
+}
+
+.profMiniCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profName {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.profRole {
+    font-size: 15px;
+    color: rgb(153, 153, 153)
+}
+
+.profSns {
+    margin-top: 5px;
+    font-size: 13px !important;
+}
