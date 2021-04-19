@@ -99,6 +99,7 @@
     height: 210px;
     border-radius: 5px;
     align-items: center;
+    background-color: black;
 }
 
 .profCardDev {
