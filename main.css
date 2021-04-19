@@ -75,9 +75,10 @@
 
 .githubhead {
   position: absolute;
-  text-align: right; 
+  text-align: center; 
   left: 750px;
-  top: 280px;
+  top: 270px;
+  color: black;
 }
 
 .statusimage {
