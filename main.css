@@ -79,6 +79,7 @@
   left: 750px;
   top: 270px;
   color: black;
+  font-size: 10px;
 }
 
 .statusimage {
@@ -86,5 +87,10 @@
   text-align: right; 
   left: 700px;
   top: 300px;
+}
+
+.infotitle {
+  color: black;
+  font-size: 10px;
 }
 
