@@ -95,13 +95,13 @@
 .profCard {
     margin: 10px;
     display: flex;
-    width: 540px;
+    width: 500px;
     height: 189px;
     border-radius: 5px;
     align-items: center;
     background-color: #0d0d0d;
     position: absolute;
-    left: 600px;
+    left: 640px;
     top: 500px; 
 }
 
