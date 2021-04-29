@@ -1,5 +1,23 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.topNavigation{
+    height: 70px;
+    text-align: center;
+    background-color: #888;
+    color: #fff;
+}
+.content{
+    flex: 1;
+    background-color: #eee;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .top-wrapper {
-  background-image: url(https://pics.prcm.jp/16c1178cd4580/83755060/jpeg/83755060.jpeg);
+  //background-image: url(https://pics.prcm.jp/16c1178cd4580/83755060/jpeg/83755060.jpeg);
   color: white;
   text-align: center;
 }
