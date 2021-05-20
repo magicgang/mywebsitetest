@@ -95,13 +95,14 @@ body{
 .githubstatus {
   text-align: right; 
   left: 700px;
+  top: 310px;
 }
 
 .githubhead {
   position: absolute;
   text-align: center; 
   left: 800px;
-  top: 300px;
+  top: 310px;
   color: black;
 }
 
@@ -109,7 +110,7 @@ body{
   position: absolute;
   text-align: right; 
   left: 700px;
-  top: 310px;
+  top: 320px;
 }
 
 .infotitle {
