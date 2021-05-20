@@ -101,7 +101,7 @@ body{
   position: absolute;
   text-align: center; 
   left: 800px;
-  top: 270px;
+  top: 300px;
   color: black;
 }
 
@@ -109,7 +109,7 @@ body{
   position: absolute;
   text-align: right; 
   left: 700px;
-  top: 300px;
+  top: 310px;
 }
 
 .infotitle {
